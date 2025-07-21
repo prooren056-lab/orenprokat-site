@@ -1,0 +1,10 @@
+
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; }
+header, footer { background: #2d2d2d; color: white; padding: 20px; text-align: center; }
+nav a { margin: 0 15px; color: white; text-decoration: none; font-weight: bold; }
+section { padding: 20px; }
+h1, h2 { color: #333; }
+.lift-card { background: white; padding: 15px; margin: 10px 0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+.lift-card img { width: 100%; max-width: 300px; height: auto; }
+.catalog { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px; }
+.footer-contact { font-size: 14px; color: #ccc; }
